@@ -1,0 +1,8 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<> a foaf:PersonalProfileDocument ;
+   foaf:maker <#me> ;
+   foaf:primaryTopic <#me> .
+
+<#me> a foaf:Person ;
+   foaf:name "Jan Forberg" .
